@@ -1,7 +1,4 @@
 {
-    "rewrites": [
-      { "source": "/meow", "destination": "/meow.html" },
-      { "source": "/contact", "destination": "/contact.html" }
-    ]
-  }
+    "cleanUrls": true
+}
   
