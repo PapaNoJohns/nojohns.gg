@@ -1,19 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-html{
+html {
     box-sizing: border-box;
     height: 100%;
 }
 
 *,
 *::before,
-*after{
+*after {
     box-sizing: inherit;
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     align-items: center;
     background: linear-gradient(#8b8b8b, #131313);
     display: flex;
@@ -23,7 +23,7 @@ body{
     justify-content: center;
 }
 
-.wrapper{
+.wrapper {
     backdrop-filter: blur(5.5px);
     -webkit-backdrop-filter: blur(5.5px);
     background: rgba(255, 255, 255, 0.75);
@@ -40,23 +40,24 @@ body{
     padding: 20px 35px;
 }
 
-.output{
+img {
+    max-width: 50%;
+    translate: (-50%, -50%);
+}
+.output {
     align-items: center;
     justify-content: center;
     text-align: center;
     font-size: 100px;
 }
 
-.buttonrow{
+.main-button {
     margin: 0;
     position: absolute;
     top: 90%;
     left: 50%;
     -ms-transform: translate(-50% -50%);
     transform: translate(-50%, -50%);
-}
-
-.main-button{
     backdrop-filter: blur(5.5px);
     -webkit-backdrop-filter: blur(5.5px);
     background: rgba(255, 255, 255, 0.75);
@@ -68,11 +69,11 @@ body{
     font-family: inherit;
     font-size: 48px;
     height: 65px;
-    width: 100%;
-    max-width: 700px;
+    width: 700px;
+    max-width: 100%;
 }
 
-.main-button:hover{
+.main-button:hover {
     background-color: inherit;
     color: inherit;
 }
