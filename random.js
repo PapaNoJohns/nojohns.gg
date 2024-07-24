@@ -9,7 +9,8 @@ const images = [
     "https://www.ssbwiki.com/images/e/eb/Jigglypuff_SSBM.jpg",
     "https://ssb.wiki.gallery/images/4/48/Sheik_SSBM.jpg",
     "https://ssb.wiki.gallery/images/d/db/Peach_SSBM.jpg",
-    "https://ssb.wiki.gallery/images/7/77/Captain_Falcon_SSBM.jpg"
+    "https://ssb.wiki.gallery/images/7/77/Captain_Falcon_SSBM.jpg",
+    "https://ssb.wiki.gallery/images/1/10/Ice_Climbers_SSBM.jpg"
 ];
 
 let lastCharacterIndex = -1;
